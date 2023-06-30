@@ -23,6 +23,7 @@ Here's an example of how you can use the Coffee component in your Next applicati
 
 #### tsx
 
+```
 import Coffee from '@/components/buttons/Coffee';
 
 function App() {
@@ -34,13 +35,14 @@ function App() {
   );
 }
 
-
 export default App;
+```
 
 If you have modified the structure, make sure to change the src in the coffee component to load svg & import directory in your file
 
 #### Coffee.tsx
 
+```
 const Coffee = () => {
   return (
     <...Button>
@@ -50,11 +52,13 @@ const Coffee = () => {
     </...Button>
   )
 }
+```
 
 #### tsx
 
+```
 import Coffee from '@/.../Coffee';
-
+```
 
 ## License
 
