@@ -21,7 +21,7 @@ Modify the components & public folder to suit your project structure and move it
 
 Here's an example of how you can use the Coffee component in your Next application:
 
-tsx
+#### tsx
 
 import Coffee from '@/components/buttons/Coffee';
 
@@ -39,7 +39,7 @@ export default App;
 
 If you have modified the structure, make sure to change the src in the coffee component to load svg & import directory in your file
 
-Coffee.tsx
+#### Coffee.tsx
 
 const Coffee = () => {
   return (
@@ -51,12 +51,12 @@ const Coffee = () => {
   )
 }
 
-tsx
+#### tsx
 
 import Coffee from '@/.../Coffee';
 
 
-#### License
+## License
 
 This component is dedicated to the public domain under the [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
