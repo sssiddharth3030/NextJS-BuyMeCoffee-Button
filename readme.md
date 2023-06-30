@@ -45,7 +45,7 @@ const Coffee = () => {
   return (
     <...Button>
       {/* ... other components */}
-      <Img src=".../coffee.svg" alt="my profile" width="35" height="34" className='svg-coffee' style={{fill: "white"}} />
+      <Img src=".../coffee.svg"/>
       {/* ... other components */}
     </...Button>
   )
